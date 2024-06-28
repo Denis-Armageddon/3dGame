@@ -3,23 +3,29 @@ using System.Collections;
 
 public class ClickableObject : MonoBehaviour
 {
+    public inventoryMain inventory;
     public int moneyToAdd = 10; // Количество денег, которое будет начислено при клике
     public CoroutineManager coroutineManager;
     public int disappearDuration; //задержка
+    private bool Height = true;
 
+    private void Start()
+    {
+        inventory = GetComponent<inventoryMain>();
+    }
     void OnMouseDown()
     {
         Debug.Log("OnMouseDown called.");
-
+        if (Height == true) { 
+        {
         // Проверяем, что экземпляр MoneyManager существует
-        if (MoneyManager.Instance != null)
+        if (MoneyManager.Instance != null )
         {
             // Начисляем деньги
             MoneyManager.Instance.AddMoney(moneyToAdd);
             Debug.Log("Added " + moneyToAdd + " money on click.");
-
             // Начинаем процесс исчезновения и появления объекта через CoroutineManager
-            if (coroutineManager != null)
+            if (coroutineManager != null )
             {
                 coroutineManager.StartCoroutine(DisappearAndReappear(this, disappearDuration));
             }
@@ -32,25 +38,32 @@ public class ClickableObject : MonoBehaviour
         {
             Debug.LogError("MoneyManager instance is null.");
         }
+        }
+        }
     }
 
-    public static IEnumerator DisappearAndReappear(ClickableObject clickableObject, int delay)
+    public IEnumerator DisappearAndReappear(ClickableObject clickableObject, int delay)
     {
+        Height = false;
 
         // Делаем объект невидимым
         clickableObject.gameObject.SetActive(false);
 
-        // Ждем 10 секунд
         yield return new WaitForSeconds(delay);
-        // Проверяем, не был ли объект уничтожен
 
-        if (clickableObject != null)
-        {
-            clickableObject.gameObject.SetActive(true);
-        }
-        else
-        {
-            Debug.LogError("Object was destroyed before reappearing.");
-        }
+        clickableObject.gameObject.SetActive(true);
+        clickableObject.gameObject.transform.localScale = new Vector3(92, 92, 92);
+        yield return new WaitForSeconds(delay);
+
+        clickableObject.gameObject.transform.localScale = new Vector3(184, 184, 184);
+
+        yield return new WaitForSeconds(delay);
+
+        clickableObject.gameObject.transform.localScale = new Vector3(276.91f, 276.91f, 276.91f);
+
+        Height = true;
+
+        inventory.quantity += 1;
+
     }
 }

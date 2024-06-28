@@ -5,7 +5,7 @@ public class MoneyManager : MonoBehaviour
 {
     public static MoneyManager Instance { get; private set; }
 
-    public TextMeshProUGUI moneyText; // Измените тип на TextMeshProUGUI
+    public TextMeshProUGUI moneyText; 
     private int money;
 
     void Awake()
@@ -36,7 +36,7 @@ public class MoneyManager : MonoBehaviour
     }
     public void deleteMoney(int amount)
     {
-        money += amount;
+        money -= amount;
         UpdateMoneyUI();
     }
 
