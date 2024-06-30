@@ -315,6 +315,7 @@
 "Assets/scripts/menuOpen.cs"
 "Assets/scripts/moneyManager.cs"
 "Assets/scripts/npc/npcMove.cs"
+"Assets/scripts/npc/tradeNPC.cs"
 "Assets/scripts/PlayerController.cs"
 "Assets/scripts/test.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

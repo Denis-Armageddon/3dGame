@@ -32,6 +32,17 @@ public class Inventory : MonoBehaviour
         quatity += amount;
         UpdateInventoryUI();
     }
+
+    public bool DeleteInventory(int amount)
+    {
+        if (quatity > 0) 
+        { 
+        quatity -= amount;
+        UpdateInventoryUI();
+            return true;
+        }
+        return false;
+    }
     private void UpdateInventoryUI()
     {
         if (quatity == 0)

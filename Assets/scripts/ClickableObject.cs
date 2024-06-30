@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ClickableObject : MonoBehaviour
 {
-    public int moneyToAdd = 10; // Количество денег, которое будет начислено при клике
+    
     public CoroutineManager coroutineManager;
     public int disappearDuration; //задержка
     private bool Height = true;
@@ -18,9 +18,6 @@ public class ClickableObject : MonoBehaviour
         // Проверяем, что экземпляр MoneyManager существует
         if (MoneyManager.Instance != null )
         {
-            // Начисляем деньги
-            MoneyManager.Instance.AddMoney(moneyToAdd);
-            Debug.Log("Added " + moneyToAdd + " money on click.");
             // Начинаем процесс исчезновения и появления объекта через CoroutineManager
             if (coroutineManager != null )
             {

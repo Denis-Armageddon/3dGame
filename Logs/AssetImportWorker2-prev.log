@@ -15,7 +15,7 @@ C:/Games/3dGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49972
+58042
 Successfully changed project path to: C:/Games/3dGame
 C:/Games/3dGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Games/3dGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12376] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 4278677353 [EditorId] 4278677353 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20140] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 113738540 [EditorId] 113738540 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12376] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 4278677353 [EditorId] 4278677353 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20140] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 113738540 [EditorId] 113738540 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,53 +70,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007636 seconds.
-- Loaded All Assemblies, in  0.275 seconds
+Registered in 0.008429 seconds.
+- Loaded All Assemblies, in  0.314 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 162 ms
+Android Extension - Scanning For ADB Devices 216 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.419 seconds
-Domain Reload Profiling: 693ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (81ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (98ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (113ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (420ms)
+	FinalizeReload (510ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
+		SetupLoadedEditorAssemblies (459ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (257ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (324ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +124,8 @@ Domain Reload Profiling: 693ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.449 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -135,48 +135,1290 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.435 seconds
-Domain Reload Profiling: 883ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 1069ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (199ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (247ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (106ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (435ms)
+	FinalizeReload (524ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
+		SetupLoadedEditorAssemblies (386ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.8 KB). Loaded Objects now: 3621.
-Memory consumption went from 135.1 MB to 135.0 MB.
-Total: 2.629900 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.246700 ms  DeleteObjects: 0.098600 ms)
+Memory consumption went from 137.2 MB to 137.1 MB.
+Total: 3.726300 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.097800 ms MarkObjects: 3.246800 ms  DeleteObjects: 0.131300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9617.877359 seconds.
+  path: Assets/FromScene/Building_House_04_color02.prefab
+  artifactKey: Guid(ae9ef9ee266ed984a9ada17bf43dbf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_04_color02.prefab using Guid(ae9ef9ee266ed984a9ada17bf43dbf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bd913072f46e16bf58c3330657fb8a') in 0.064940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FromScene/Natures_Big Tree (22).prefab
+  artifactKey: Guid(31ca024adaa24e14e808917ff14433c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Big Tree (22).prefab using Guid(31ca024adaa24e14e808917ff14433c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5762d0bf5f34e02afbe6d85b713b1f33') in 0.008043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FromScene/Natures_Big Tree (38).prefab
+  artifactKey: Guid(aa13756c5665f634787b65cc42460920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Big Tree (38).prefab using Guid(aa13756c5665f634787b65cc42460920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1c3b486ad038d0f3ef70dd7b102284') in 0.006760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building_Bar (1).prefab
+  artifactKey: Guid(3852057f6dfa0b04598aa9175f4a90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Bar (1).prefab using Guid(3852057f6dfa0b04598aa9175f4a90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df8ad35ad4a23d835e47244d128dc52') in 0.006283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Building_Gift Shop (2).prefab
+  artifactKey: Guid(553ac13093ed7174c94c755be6b17dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Gift Shop (2).prefab using Guid(553ac13093ed7174c94c755be6b17dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368e8796a3195ca1704b0d7b4b422350') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building_Chicken Shop.prefab
+  artifactKey: Guid(7f165dd90c93909469a5dfbadf64d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Chicken Shop.prefab using Guid(7f165dd90c93909469a5dfbadf64d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6d12695b1373419c0bb0407c999534') in 0.007160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building_Bakery (1).prefab
+  artifactKey: Guid(c6fb62450ffb0ea4fb123710e4840027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Bakery (1).prefab using Guid(c6fb62450ffb0ea4fb123710e4840027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dc76819fd265b3e198d76a7237e6ea') in 0.007205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building Sky_small_color01.prefab
+  artifactKey: Guid(5beeae2802c22c04c9c4ca6eb26739f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_small_color01.prefab using Guid(5beeae2802c22c04c9c4ca6eb26739f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f206d9b4d900e6ebbceb7d43971b66b') in 0.007038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Building_House_02_color03.prefab
+  artifactKey: Guid(306ab5034a96e734a9169a6ae87bddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_02_color03.prefab using Guid(306ab5034a96e734a9169a6ae87bddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5b18cdd8825c9e4d0ddf2fdc5ce12f') in 0.007744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Big Tree (42).prefab
+  artifactKey: Guid(ae7eb1d7abe103d46a3912e8dabfd101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Big Tree (42).prefab using Guid(ae7eb1d7abe103d46a3912e8dabfd101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4014c5f422f793fa5d9c39d2ecf1bf62') in 0.015660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building_House_01_color01.prefab
+  artifactKey: Guid(029ba87880b68614eb2247b28929b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_01_color01.prefab using Guid(029ba87880b68614eb2247b28929b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccdaf126e5b056b7804fbbaeabe665f') in 0.007304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Building_Coffee Shop (1).prefab
+  artifactKey: Guid(1d6b4143b89424142ba42d26ae5a8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Coffee Shop (1).prefab using Guid(1d6b4143b89424142ba42d26ae5a8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34e3466c87e9692782ea2a7e1dcd340') in 0.005980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building Sky_small_color03 (1).prefab
+  artifactKey: Guid(f31948ac9a1d0b049874d8943ec2cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_small_color03 (1).prefab using Guid(f31948ac9a1d0b049874d8943ec2cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2353eaaf854897bda84814390b145711') in 0.006534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building_House_02_color03 (1).prefab
+  artifactKey: Guid(a61ce14172f80cb44abe924d8e2732f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_02_color03 (1).prefab using Guid(a61ce14172f80cb44abe924d8e2732f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc352891f2110180b28c328e90f7e1') in 0.008058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building Sky_small_color02 (1).prefab
+  artifactKey: Guid(04285cbbd95cbd046bcc5a303a2c7b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_small_color02 (1).prefab using Guid(04285cbbd95cbd046bcc5a303a2c7b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3cae1493b4c424b114de3cd45e75d3') in 0.005256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Natures_Big Tree (33).prefab
+  artifactKey: Guid(44b3707b4b477ac4994fd6d50dae5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Big Tree (33).prefab using Guid(44b3707b4b477ac4994fd6d50dae5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9ad51037a891f27c10c90c896488fa') in 0.005999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Building Sky_small_color03 (3).prefab
+  artifactKey: Guid(f2ed5cac4c9070c42913f88fa662f558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_small_color03 (3).prefab using Guid(f2ed5cac4c9070c42913f88fa662f558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f6653e4d8d4bd2dc6806aeb1cd5bfe') in 0.006848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Big Tree (25).prefab
+  artifactKey: Guid(82c51b844e1c971408f2133208313b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Big Tree (25).prefab using Guid(82c51b844e1c971408f2133208313b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ff49b3c40a7fdfe55bf93a10d51d81') in 0.005736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building_Gas Station.prefab
+  artifactKey: Guid(aad690b00256f4b4a8cec424cfec18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Gas Station.prefab using Guid(aad690b00256f4b4a8cec424cfec18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff400328403bcabcb532b9abc9f22d26') in 0.006512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Building Sky_big_color03.prefab
+  artifactKey: Guid(6b5dcde2da613d848818af45f687ab62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_big_color03.prefab using Guid(6b5dcde2da613d848818af45f687ab62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e791aba0439fa9c6b6f1728958189d5') in 0.007326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Building_Drug Store.prefab
+  artifactKey: Guid(289ec279055e77146af7b5339c186a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Drug Store.prefab using Guid(289ec279055e77146af7b5339c186a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e804d29feec275e1dd17e235a01617f8') in 0.006736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FromScene/Building_House_03_color02.prefab
+  artifactKey: Guid(9365b5839181d1e47a661ce89c878af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_03_color02.prefab using Guid(9365b5839181d1e47a661ce89c878af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa166326561f1aef5ac812f596939926') in 0.007969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Building_House_02_color01.prefab
+  artifactKey: Guid(45bb735d609a0e544a2feab439836c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_02_color01.prefab using Guid(45bb735d609a0e544a2feab439836c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b93f254c5caba4a74742b76ce0aec5') in 0.005735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building_Fast Food (1).prefab
+  artifactKey: Guid(5d5c5c32ac68eb84ca0d361313b33277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Fast Food (1).prefab using Guid(5d5c5c32ac68eb84ca0d361313b33277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f98c6ac0dd033d7c7c3072c3e35a3e') in 0.005753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Building_Bar (2).prefab
+  artifactKey: Guid(34cced8e720e2d740b6f4b76f1d8f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_Bar (2).prefab using Guid(34cced8e720e2d740b6f4b76f1d8f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d46ba3555c793122691c271c32a0769') in 0.007232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building Sky_big_color01.prefab
+  artifactKey: Guid(8593a4aa01c5bc64791d93ea7e778d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building Sky_big_color01.prefab using Guid(8593a4aa01c5bc64791d93ea7e778d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc11eae31e21c164480681f35bb9d01') in 0.005375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Building_House_02_color02 (1).prefab
+  artifactKey: Guid(7772c535be36f9049ac3b0bded85d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_02_color02 (1).prefab using Guid(7772c535be36f9049ac3b0bded85d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77a1d928c99e7e5c93955df6803d2ec') in 0.005903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Building_House_04_color01.prefab
+  artifactKey: Guid(61069c4e82714f54482103262837e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Building_House_04_color01.prefab using Guid(61069c4e82714f54482103262837e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a51c15d9ca9a8e197f9b813b3c92523') in 0.005971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.204964 seconds.
+  path: Assets/FromScene/Natures_Bush_01.prefab
+  artifactKey: Guid(5eca57a395517054fa5a68150e72c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01.prefab using Guid(5eca57a395517054fa5a68150e72c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae37bc32ce457923a055ccf87015d84e') in 0.005646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (7).prefab
+  artifactKey: Guid(6cb83efd7500f3b41876640bdd31b7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (7).prefab using Guid(6cb83efd7500f3b41876640bdd31b7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030a50e4f9caed19ebae0f80080e8e08') in 0.005959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (3).prefab
+  artifactKey: Guid(3e746e6312725f24fa6cc44898a059f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (3).prefab using Guid(3e746e6312725f24fa6cc44898a059f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60c4455e19d88dca816edaa98c7a76e') in 0.005778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (11).prefab
+  artifactKey: Guid(38f7c9f4c2c3f2f4d989182e8c48c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (11).prefab using Guid(38f7c9f4c2c3f2f4d989182e8c48c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1e5906b5d709af395614b21e839ab6') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (9).prefab
+  artifactKey: Guid(39b193f4be51d8e42b2a7f54d38e5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (9).prefab using Guid(39b193f4be51d8e42b2a7f54d38e5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdff08d2a8e25c24e163aacac7cebd4a') in 0.006778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.031203 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (13).prefab
+  artifactKey: Guid(8685640e916d1294980febc431b360fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (13).prefab using Guid(8685640e916d1294980febc431b360fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc09508b1a4a7803965b3ee8e3e368d0') in 0.007518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (18).prefab
+  artifactKey: Guid(4ffcdc4ae6950394892095e17fcee55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (18).prefab using Guid(4ffcdc4ae6950394892095e17fcee55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81ddc672eabad0817f0e3acaa0fa571') in 0.006378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (24).prefab
+  artifactKey: Guid(ce9ab48a4d730c14caa22dbf6b96388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (24).prefab using Guid(ce9ab48a4d730c14caa22dbf6b96388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66edefddc880cb00111f9527cde4d81c') in 0.006980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (16).prefab
+  artifactKey: Guid(0f74139af23373c42833f0c3ff7ffe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (16).prefab using Guid(0f74139af23373c42833f0c3ff7ffe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4610f3efc738364688cce3f444b47e3') in 0.005729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.227153 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (26).prefab
+  artifactKey: Guid(bd65cd0ba2ec89842aed4fa0175cb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (26).prefab using Guid(bd65cd0ba2ec89842aed4fa0175cb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ba53457565a9440b91e63586de2b9d') in 0.007197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (35).prefab
+  artifactKey: Guid(b3cd67eb634369f49b6253c6a562d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (35).prefab using Guid(b3cd67eb634369f49b6253c6a562d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed50cd42eef1e72f211cf403c0b61d') in 0.007000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (38).prefab
+  artifactKey: Guid(b224a6cdf38a54845b06bb9a95ac7d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (38).prefab using Guid(b224a6cdf38a54845b06bb9a95ac7d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96fcc92618d93cd1a8fc0a2a6768707') in 0.006502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (36).prefab
+  artifactKey: Guid(9cb288f4809a95b4894a0af7187c78d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (36).prefab using Guid(9cb288f4809a95b4894a0af7187c78d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01efaf98c0fe605b89410d168be347bd') in 0.006638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004680 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (39).prefab
+  artifactKey: Guid(c0e5ecd44eca9c04ebc5319eb2320602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (39).prefab using Guid(c0e5ecd44eca9c04ebc5319eb2320602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbe70bed88c34953f5b59b5908b6cfa') in 0.006882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Cube Tree (1).prefab
+  artifactKey: Guid(8e8434bb6930f2142bae47a85ab139a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Cube Tree (1).prefab using Guid(8e8434bb6930f2142bae47a85ab139a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172145acd956512aaadcb5e1dac7951f') in 0.005784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FromScene/Natures_Cube Tree (7).prefab
+  artifactKey: Guid(c5b8df698c6201641961a492e585428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Cube Tree (7).prefab using Guid(c5b8df698c6201641961a492e585428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe76d21b495d2892942503e8c5e63964') in 0.006349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (43).prefab
+  artifactKey: Guid(f7fa13b7107d18940ae7bc2bab7549ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (43).prefab using Guid(f7fa13b7107d18940ae7bc2bab7549ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2863bd34f0d39434d5e6267740836611') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (13).prefab
+  artifactKey: Guid(eb461d66321e263499cf8bd662b720f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (13).prefab using Guid(eb461d66321e263499cf8bd662b720f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ffa2666dadb13a36bd7ccfaa3d5d95') in 0.006784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (16).prefab
+  artifactKey: Guid(1b044ee9086fa224eb98876baae8f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (16).prefab using Guid(1b044ee9086fa224eb98876baae8f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106728008960f537b22375a89dbc2e0c') in 0.005439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Cube Tree (11).prefab
+  artifactKey: Guid(228f277eb20cab9448910fa380fe8ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Cube Tree (11).prefab using Guid(228f277eb20cab9448910fa380fe8ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179486850f580ea1bd5ba16f7c57adc3') in 0.008548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (19).prefab
+  artifactKey: Guid(83a7802fb6dbf894e83e1896a18fab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (19).prefab using Guid(83a7802fb6dbf894e83e1896a18fab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1487f0a030aecd2f28ec7d4da75ad671') in 0.005214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (4).prefab
+  artifactKey: Guid(dd68bec0544c9cf41be439c5ca2efe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (4).prefab using Guid(dd68bec0544c9cf41be439c5ca2efe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3c0e2baec453f26c4839e56bf468e') in 0.007900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Cube Tree (12).prefab
+  artifactKey: Guid(b0340faf5b6da1e40a2d0b1069b5b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Cube Tree (12).prefab using Guid(b0340faf5b6da1e40a2d0b1069b5b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4753a0db1c2125502403df103f253620') in 0.007253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Bush_01 (42).prefab
+  artifactKey: Guid(083db1fcb2dde8e40848f17894037188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Bush_01 (42).prefab using Guid(083db1fcb2dde8e40848f17894037188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2fbfb7645b63b075d2fac4d9538e92') in 0.006730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Fir Tree.prefab
+  artifactKey: Guid(673946264dd62bd48998277f7098e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree.prefab using Guid(673946264dd62bd48998277f7098e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f93b7e8004e543cf9d0abe2576cff0') in 0.007210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (8).prefab
+  artifactKey: Guid(10cb86b6296dd7e4e958295c9c37bbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (8).prefab using Guid(10cb86b6296dd7e4e958295c9c37bbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5aff4cc00492d498d6ed8aa380f8d') in 0.006528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.161418 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (21).prefab
+  artifactKey: Guid(618eaf298e322c547a2e8207a5622d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (21).prefab using Guid(618eaf298e322c547a2e8207a5622d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8893a05672e2080a9435490b75bd4b5c') in 0.007959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (35).prefab
+  artifactKey: Guid(f71eea92444707a4d8614520e3b343f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (35).prefab using Guid(f71eea92444707a4d8614520e3b343f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc40b822debf5443a011c408fd9f5ba8') in 0.006084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (43).prefab
+  artifactKey: Guid(d115d0d94e7e95d4083778d3874bbf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (43).prefab using Guid(d115d0d94e7e95d4083778d3874bbf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7045aaa1c192378c2c9768d95606db') in 0.007401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (36).prefab
+  artifactKey: Guid(9875358e22412694db46cc44f7236131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (36).prefab using Guid(9875358e22412694db46cc44f7236131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd7f8aea232889a67ef11d7b4625feb') in 0.006173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (42).prefab
+  artifactKey: Guid(563f2ca29c0a9e647901839b33a5e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (42).prefab using Guid(563f2ca29c0a9e647901839b33a5e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb2d16b6180ff771d01346861d4bea4') in 0.007787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (39).prefab
+  artifactKey: Guid(318ff2c68f5e2fc4fbd745ac58f7ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (39).prefab using Guid(318ff2c68f5e2fc4fbd745ac58f7ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c4774b605c514ed461493c005276e4') in 0.006878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (2).prefab
+  artifactKey: Guid(da5833c58cd9b7c438c9065b7a3626c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (2).prefab using Guid(da5833c58cd9b7c438c9065b7a3626c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562b8771134c1b27d2ccecd3e1cf32ac') in 0.005998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (7).prefab
+  artifactKey: Guid(18e992516c6e54d4eb3407e51d92eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (7).prefab using Guid(18e992516c6e54d4eb3407e51d92eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85c45cb503023ae8ad9889ddb62b57b') in 0.006292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (52).prefab
+  artifactKey: Guid(f1f64a703d14fdc41bf60060c6e1d14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (52).prefab using Guid(f1f64a703d14fdc41bf60060c6e1d14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71f983ce0885fa990528579d335334c') in 0.008608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Grass Bar (2).prefab
+  artifactKey: Guid(10cf353ca3f167146b66eed00b173e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Bar (2).prefab using Guid(10cf353ca3f167146b66eed00b173e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ab06aa624e5ed45af6b36989144aed') in 0.006236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (10).prefab
+  artifactKey: Guid(dc35790e6b3e94340a68b6dd83284ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (10).prefab using Guid(dc35790e6b3e94340a68b6dd83284ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8776c8647890e391e6f6b4df5ba0108') in 0.006714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Natures_Grass Bar (1).prefab
+  artifactKey: Guid(299e3395542418a4492a743e69c68b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Bar (1).prefab using Guid(299e3395542418a4492a743e69c68b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681ff4d3d92e0fb3420f3ad21682065e') in 0.007572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (6).prefab
+  artifactKey: Guid(cfb48f8fa9e7f6f488622a463455e3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (6).prefab using Guid(cfb48f8fa9e7f6f488622a463455e3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793ae4cee708271f24f7e02e2fdcea00') in 0.005514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (8).prefab
+  artifactKey: Guid(f39e1c30081123246be245767864435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (8).prefab using Guid(f39e1c30081123246be245767864435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5972f0c76f5baa8abe98dba67045a6d') in 0.008124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Natures_Fir Tree (24).prefab
+  artifactKey: Guid(df6fd66e132a866438b41e1fd2130823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Fir Tree (24).prefab using Guid(df6fd66e132a866438b41e1fd2130823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c661022c6a77dfbe9aed76b2a50cc8e') in 0.005523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Grass Bar (4).prefab
+  artifactKey: Guid(5904f26a1569c00479124a1f8d1f6c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Bar (4).prefab using Guid(5904f26a1569c00479124a1f8d1f6c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2826a5bebee902264bdcccfe2ff2439c') in 0.005962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (9).prefab
+  artifactKey: Guid(dffb46c0d161c714b822a31c947c8257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (9).prefab using Guid(dffb46c0d161c714b822a31c947c8257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975440d93784c14c9e4328aa9acb3eef') in 0.008655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.127894 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (12).prefab
+  artifactKey: Guid(37cb1f4efafedbf4489c66d92c8ab57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (12).prefab using Guid(37cb1f4efafedbf4489c66d92c8ab57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5263297c190911d3f6390911fa9f375') in 0.008346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Grass Tile (5).prefab
+  artifactKey: Guid(9867863e2cfa51a4bb5d67b42ec81b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Tile (5).prefab using Guid(9867863e2cfa51a4bb5d67b42ec81b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e041ffcc020594fa2a74bf052677c03') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Grass Tile Small (2).prefab
+  artifactKey: Guid(e730d0423a493c343b838f37cb88f06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Tile Small (2).prefab using Guid(e730d0423a493c343b838f37cb88f06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6926c896dcc49c666b19fdbdbbf398') in 0.005485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_House Floor.prefab
+  artifactKey: Guid(ac71a32d9a273ec4f8cadc1c335354ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor.prefab using Guid(ac71a32d9a273ec4f8cadc1c335354ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87f6563ae0dfd8e6af460d843e9ccfb') in 0.005609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Grass Tile Small (1).prefab
+  artifactKey: Guid(3dd7a3988ce6152409cbfa4e7adcc146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Tile Small (1).prefab using Guid(3dd7a3988ce6152409cbfa4e7adcc146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b9be5b1bb7227dfd67c564b6736bf1') in 0.009345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_House Floor (10).prefab
+  artifactKey: Guid(fef822b9d76ec914ba27c4f2a2fb5304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (10).prefab using Guid(fef822b9d76ec914ba27c4f2a2fb5304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85478d820af9a74197afa314d284d408') in 0.005437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_House Floor (24).prefab
+  artifactKey: Guid(c083b32f038d5fc4690f3154fb0ebb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (24).prefab using Guid(c083b32f038d5fc4690f3154fb0ebb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86691f20d37e3579281bc6379fb03fbe') in 0.006446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_House Floor (19).prefab
+  artifactKey: Guid(e62003a6f69f54448b7fc9683fa0fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (19).prefab using Guid(e62003a6f69f54448b7fc9683fa0fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c248be25d4cc90ddd2f80474727e09a') in 0.007092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_House Floor (27).prefab
+  artifactKey: Guid(ba360f6f98f6b7646b98e7c102e53b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (27).prefab using Guid(ba360f6f98f6b7646b98e7c102e53b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5581f337ac928fffe45f91275fe8ba') in 0.005600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_House Floor (11).prefab
+  artifactKey: Guid(8af895bd1e8294640b93739a7078c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (11).prefab using Guid(8af895bd1e8294640b93739a7078c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70990f632967bccfdd024dc8b1bfd108') in 0.005745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_House Floor (9).prefab
+  artifactKey: Guid(f6797c8ae03219a4f894daf78a3f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (9).prefab using Guid(f6797c8ae03219a4f894daf78a3f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cfc880ce139ae1ddca462d623810c3') in 0.006157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_House Floor (6).prefab
+  artifactKey: Guid(4345c5686381b0941b5177f836faa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (6).prefab using Guid(4345c5686381b0941b5177f836faa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d693e148eff499ac4b5672211d965c') in 0.007511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_House Floor (5).prefab
+  artifactKey: Guid(01b0ce521678b6c41acbe1ad3c03a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (5).prefab using Guid(01b0ce521678b6c41acbe1ad3c03a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b9e748a6144923a13d81d26ee5c40d') in 0.008639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Grass Fence (15).prefab
+  artifactKey: Guid(05a5278507ef23c48987e46f2ccc282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Fence (15).prefab using Guid(05a5278507ef23c48987e46f2ccc282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a8983fa30ff4c28d90a9414d40c3f7') in 0.007705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Natures_House Floor (25).prefab
+  artifactKey: Guid(312e179d81e40c1498112c6af16eaa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_House Floor (25).prefab using Guid(312e179d81e40c1498112c6af16eaa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f31920d1ca3903958ab849fc470ed8') in 0.007230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Grass Tile (9).prefab
+  artifactKey: Guid(8d912c8a605c49245b46f5f56bb4fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Tile (9).prefab using Guid(8d912c8a605c49245b46f5f56bb4fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b525e6f957510be3f3a95983e1875b') in 0.006724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Natures_Grass Tile.prefab
+  artifactKey: Guid(1de6bc56705c9634d993c947ca27482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Grass Tile.prefab using Guid(1de6bc56705c9634d993c947ca27482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cd5ff7346cd3db1ba5c5a0f9076dbb') in 0.006459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.117941 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (2).prefab
+  artifactKey: Guid(1d1896222af8dd8418c4f98c64020088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (2).prefab using Guid(1d1896222af8dd8418c4f98c64020088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325cf918d2aba19f4d39c68739f01bee') in 0.006116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (9).prefab
+  artifactKey: Guid(dc720401dd2ad7541b4c664a3deb2ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (9).prefab using Guid(dc720401dd2ad7541b4c664a3deb2ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eb4057a76c85c5ba0879f1248b9d8e') in 0.006320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (8).prefab
+  artifactKey: Guid(2008ff47ffe8a1d45868374473aa262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (8).prefab using Guid(2008ff47ffe8a1d45868374473aa262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fd7d5a0a12277e441be6aef7bcf9b1') in 0.006154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (7).prefab
+  artifactKey: Guid(44883754b0a55be40acd19a75f1228c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (7).prefab using Guid(44883754b0a55be40acd19a75f1228c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737992e832545bdd9e361c60a0d30d4b') in 0.005923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (6).prefab
+  artifactKey: Guid(d9e3fe048c0be4b4eb51b1ef0e3adb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (6).prefab using Guid(d9e3fe048c0be4b4eb51b1ef0e3adb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b1ddb6ef3cd50d832e3fd3761e97c1') in 0.005611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002890 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (15).prefab
+  artifactKey: Guid(850e9093b5188124c8d69c9a58220c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (15).prefab using Guid(850e9093b5188124c8d69c9a58220c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf60460d849686b5422146ddbf228e6b') in 0.006170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (23).prefab
+  artifactKey: Guid(168b6613ccae9164989d7e4c82704c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (23).prefab using Guid(168b6613ccae9164989d7e4c82704c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b2f4b9d88062cc68927a08d03f0d84') in 0.006957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (30).prefab
+  artifactKey: Guid(dbb62b6f3ea561d4a8cdaff75fee354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (30).prefab using Guid(dbb62b6f3ea561d4a8cdaff75fee354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c60ec0dedd883ec08db761055822fe') in 0.007385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (31).prefab
+  artifactKey: Guid(93e7d81a7c0499446982398ce991fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (31).prefab using Guid(93e7d81a7c0499446982398ce991fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e6bd26edd7967268f0bd79ac986960') in 0.006475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (7).prefab
+  artifactKey: Guid(9f70919c11b1f5e4e9ba70db2f3bdf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (7).prefab using Guid(9f70919c11b1f5e4e9ba70db2f3bdf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553df035bdc157dfd5a1ee45102c0029') in 0.006238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (17).prefab
+  artifactKey: Guid(7df58cd49943da245bce18669d78b96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (17).prefab using Guid(7df58cd49943da245bce18669d78b96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0481515881e0643c185e3d9642ca32eb') in 0.007662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (26).prefab
+  artifactKey: Guid(0169c95c37865394fa54f64a23cb1a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (26).prefab using Guid(0169c95c37865394fa54f64a23cb1a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b892a6fee254dc4616cfb37d75179630') in 0.005490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (20).prefab
+  artifactKey: Guid(a3d2ee528745dcb4e89fefe830b107cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (20).prefab using Guid(a3d2ee528745dcb4e89fefe830b107cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d20f0e38d0e6f63d36d61e525989bb7') in 0.005620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_big (22).prefab
+  artifactKey: Guid(3c36c12b43b9f8149861432700202a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_big (22).prefab using Guid(3c36c12b43b9f8149861432700202a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed644bf5d02edb8dc33f26e4d762854') in 0.007086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (9).prefab
+  artifactKey: Guid(394660c4b8eb2754cbffd7a8c6d8f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (9).prefab using Guid(394660c4b8eb2754cbffd7a8c6d8f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c511cd1cf2d2307c61f6479ab26250') in 0.007354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (16).prefab
+  artifactKey: Guid(cd3dd3c26b5d5ad47a4bde51549bbe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (16).prefab using Guid(cd3dd3c26b5d5ad47a4bde51549bbe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e1acc2d7a54f0de1f62527e6e251ea') in 0.007785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (1).prefab
+  artifactKey: Guid(1be3c35e55f75fb46b231d609f23adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (1).prefab using Guid(1be3c35e55f75fb46b231d609f23adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9aa2288a9254d1783b0e9f2c556105') in 0.006518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (10).prefab
+  artifactKey: Guid(3a42e0bc4d911924f98cb23210f8ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (10).prefab using Guid(3a42e0bc4d911924f98cb23210f8ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c1f43af24503825e83a3198d91651f') in 0.006153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.131641 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (22).prefab
+  artifactKey: Guid(803dc530086b1fc46b2e8cfe208bc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (22).prefab using Guid(803dc530086b1fc46b2e8cfe208bc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547ec8146bc1f3c52bfc7c6b667c47b') in 0.008293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (28).prefab
+  artifactKey: Guid(90147b00729c0a64db9fd397352217d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (28).prefab using Guid(90147b00729c0a64db9fd397352217d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8e8c17f3fded97f85683dacdfd3453') in 0.007074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Rock_Big.prefab
+  artifactKey: Guid(1a632d59815b2e649a98a9c96154718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big.prefab using Guid(1a632d59815b2e649a98a9c96154718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb6eff6e0724edb0205cfc6d8fd7b0') in 0.006391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Pot Bush_small (31).prefab
+  artifactKey: Guid(aecb356021bcdb64aaf11e5f7bc681ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Pot Bush_small (31).prefab using Guid(aecb356021bcdb64aaf11e5f7bc681ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a920b0b18134f8088d538286d0e4320') in 0.006073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006827 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (3).prefab
+  artifactKey: Guid(1b55465d51c3adb4f9af09e856a9ca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (3).prefab using Guid(1b55465d51c3adb4f9af09e856a9ca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6123c74c63e4ff7ec24b354ee6c85577') in 0.006249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (15).prefab
+  artifactKey: Guid(e6227cdc4146e5f4b9f750a7e4465c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (15).prefab using Guid(e6227cdc4146e5f4b9f750a7e4465c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115f3c1b5f22ff9801bf2e42c624b8aa') in 0.005574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Bench_1 (12).prefab
+  artifactKey: Guid(e44d700984f1934478f20f877bc8ee88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (12).prefab using Guid(e44d700984f1934478f20f877bc8ee88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8b88fa691dbe380d7afef7bda02a12') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Props_Bench_1 (13).prefab
+  artifactKey: Guid(344b1163c57942b49826bfd1f4aed37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (13).prefab using Guid(344b1163c57942b49826bfd1f4aed37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df923b5102db886684bcacfeccd54c7c') in 0.008345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (11).prefab
+  artifactKey: Guid(90dfe0641eaa4d24c8b35442c84f3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (11).prefab using Guid(90dfe0641eaa4d24c8b35442c84f3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b8ebb585d8455006e8cd19f134248a') in 0.006631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (14).prefab
+  artifactKey: Guid(0e26f76a7f3648e42908d735d68c1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (14).prefab using Guid(0e26f76a7f3648e42908d735d68c1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52017b931dcf6ec5ea2b8fb03ca131a') in 0.005344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Bench_1 (8).prefab
+  artifactKey: Guid(885f701137a8bd34a844e815d1e585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (8).prefab using Guid(885f701137a8bd34a844e815d1e585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df38aa42c33eda8bdaef1647ad43874') in 0.005704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (20).prefab
+  artifactKey: Guid(b1ba95def55869f4b8c70dc9f005d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (20).prefab using Guid(b1ba95def55869f4b8c70dc9f005d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0f6611d4e58a278bcff2112073e1c') in 0.009050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (7).prefab
+  artifactKey: Guid(989c39235dca988419c5757990d49570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (7).prefab using Guid(989c39235dca988419c5757990d49570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506e239e93cb88a1832c67530dc8668') in 0.005950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (26).prefab
+  artifactKey: Guid(8d6acbad099502548939ac82de557bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (26).prefab using Guid(8d6acbad099502548939ac82de557bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed845c2f50289f14fac1ed318aaac88e') in 0.006293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FromScene/Natures_Rock_Big (21).prefab
+  artifactKey: Guid(575c4886934b30a4aa13768ebe4a848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Natures_Rock_Big (21).prefab using Guid(575c4886934b30a4aa13768ebe4a848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6af6cf90c893e03ed63cf2cb1158d13') in 0.005766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Bench_1 (9).prefab
+  artifactKey: Guid(20eb1bb0c672a0b4b978d1326338b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (9).prefab using Guid(20eb1bb0c672a0b4b978d1326338b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45774ffffbb7b7a0e9d0e8486d91e73f') in 0.006484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Bench_1 (10).prefab
+  artifactKey: Guid(c75b793fec2f0684ba08ba0ba37eb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (10).prefab using Guid(c75b793fec2f0684ba08ba0ba37eb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb65f5707f2136cc7634755d8f4ad5') in 0.006037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.142102 seconds.
+  path: Assets/FromScene/Props_Bench_1 (14).prefab
+  artifactKey: Guid(37f88244907b3cc4980a18c78a2fffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (14).prefab using Guid(37f88244907b3cc4980a18c78a2fffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07908f515eea77ec73942e50469d77cf') in 0.006592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_BillBoard_small.prefab
+  artifactKey: Guid(3e765d7ae8da5654eb3e416f10d3e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_BillBoard_small.prefab using Guid(3e765d7ae8da5654eb3e416f10d3e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f029a98860c7947e89deaa1d7f55982f') in 0.006149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Props_BillBoard_large.prefab
+  artifactKey: Guid(170823da620f35149a37be2809d23f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_BillBoard_large.prefab using Guid(170823da620f35149a37be2809d23f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287a5e826d611cdd274d044a4da08d09') in 0.008289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_BillBoard_large (1).prefab
+  artifactKey: Guid(a31f7e2473bba484e89e8e11496c12c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_BillBoard_large (1).prefab using Guid(a31f7e2473bba484e89e8e11496c12c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1113e1408097c881830f0d6ef4128977') in 0.006811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Bench_1 (18).prefab
+  artifactKey: Guid(d382e9046cb7b674091c6505a3d1cdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bench_1 (18).prefab using Guid(d382e9046cb7b674091c6505a3d1cdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d1e87b3dd2b9b25d2668f0d811d5e0') in 0.007139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Props_Bus Stop (2).prefab
+  artifactKey: Guid(fe6f600a87b5c2344834171c217916ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Bus Stop (2).prefab using Guid(fe6f600a87b5c2344834171c217916ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33a944ec1bcda73dd83667ff542de33') in 0.006129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Hydrant.prefab
+  artifactKey: Guid(ceda92f8711847849be968955849682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant.prefab using Guid(ceda92f8711847849be968955849682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caffdcebb42a948a1eb95bb04fb11e9c') in 0.008120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Props_Coffee shop chair.prefab
+  artifactKey: Guid(e61b4b3b634c57f4fb8b4057285ee533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Coffee shop chair.prefab using Guid(e61b4b3b634c57f4fb8b4057285ee533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b13896fbc47d1d4e85b220df629ee30') in 0.006105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FromScene/Props_Hydrant (10).prefab
+  artifactKey: Guid(f5ff9023790bca44ba0fc2f4dabed9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (10).prefab using Guid(f5ff9023790bca44ba0fc2f4dabed9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30adfb3bb6eb81734f81b960a4d44e5b') in 0.006477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Hydrant (20).prefab
+  artifactKey: Guid(f2a3f54b4b8786949a63cef296105592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (20).prefab using Guid(f2a3f54b4b8786949a63cef296105592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7757a10f98b873d885dd965f88d250c7') in 0.005761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Hydrant (25).prefab
+  artifactKey: Guid(ec1011153aaa72d42b4a7d1dc22bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (25).prefab using Guid(ec1011153aaa72d42b4a7d1dc22bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc06c7f3491fa537ce33cd11e4732f') in 0.006001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Props_Hydrant (22).prefab
+  artifactKey: Guid(3aeed262bee97ec43b7814838d88fda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (22).prefab using Guid(3aeed262bee97ec43b7814838d88fda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cb5070b37e52e28063a35a7cb0a55f') in 0.005688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Hydrant (16).prefab
+  artifactKey: Guid(ab132488c7417c548af0a0871fa19360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (16).prefab using Guid(ab132488c7417c548af0a0871fa19360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff03e4a8e292c6f5f5435e17c6ea7878') in 0.005611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FromScene/Props_Hydrant (13).prefab
+  artifactKey: Guid(3f0e9a3fd2cabd5459291b755cce1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (13).prefab using Guid(3f0e9a3fd2cabd5459291b755cce1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a0d921c008d4fea8beee6eca27462') in 0.005962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FromScene/Props_Hydrant (12).prefab
+  artifactKey: Guid(97c2d1e68872be242b6272adf2f4785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (12).prefab using Guid(97c2d1e68872be242b6272adf2f4785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8ba8522059908eb3c288bcdcf25bc8') in 0.006769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FromScene/Props_Hydrant (17).prefab
+  artifactKey: Guid(01e4b40978ee7244f8562fe07483d993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (17).prefab using Guid(01e4b40978ee7244f8562fe07483d993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55472cf6d0b07f93e28665426dc0c533') in 0.006553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Coffee shop chair (1).prefab
+  artifactKey: Guid(17f3f5c9b935d0d4b87839d1c60ec996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Coffee shop chair (1).prefab using Guid(17f3f5c9b935d0d4b87839d1c60ec996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4b52db536c3ef5b1881d479c19bc17') in 0.009448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Hydrant (7).prefab
+  artifactKey: Guid(00771155889b455469a564104e1ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Hydrant (7).prefab using Guid(00771155889b455469a564104e1ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35951b4a6b0147be570098f26fe875f6') in 0.005453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 17.170783 seconds.
+  path: Assets/FromScene/Vehicle_Taxi (4).prefab
+  artifactKey: Guid(065426230eba6564498193ec74ee3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Taxi (4).prefab using Guid(065426230eba6564498193ec74ee3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5f8aba5ae77f0b61c0caf1bf02165') in 0.006415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Vehicle_Truck_color01.prefab
+  artifactKey: Guid(cef53aef1bc20f247815ccc31ae2934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Truck_color01.prefab using Guid(cef53aef1bc20f247815ccc31ae2934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a11b548213d1d72a71c80dda8c6e03') in 0.006258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Vehicle_Taxi (12).prefab
+  artifactKey: Guid(71fd1dcae0f19044691a0efc40532018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Taxi (12).prefab using Guid(71fd1dcae0f19044691a0efc40532018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bff4125aa510f87a6c0af5f286f41c8') in 0.005241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Vehicle_Truck_color02 (3).prefab
+  artifactKey: Guid(52506abcdb1d7a143a9803aab8e4ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Truck_color02 (3).prefab using Guid(52506abcdb1d7a143a9803aab8e4ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a092440dde9fb2013744dd92bdabd659') in 0.005473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Vehicle_Taxi (9).prefab
+  artifactKey: Guid(cea8187d08ee3784cb469954520ccb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Taxi (9).prefab using Guid(cea8187d08ee3784cb469954520ccb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fe987130aee3c8f5c24ee163318edd') in 0.005465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Vehicle_Truck_color01 (1).prefab
+  artifactKey: Guid(e510c25d4d0aeca47a719755a5243271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Vehicle_Truck_color01 (1).prefab using Guid(e510c25d4d0aeca47a719755a5243271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6556fccd5470d6a69a5e7eb54e765da4') in 0.005309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3631.
+Memory consumption went from 132.1 MB to 132.1 MB.
+Total: 2.721800 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.336900 ms  DeleteObjects: 0.037900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -189,88 +1431,111 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Item.cs: da5abbe6f92740268485cc4b6f4711de -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9270.193865 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Roads
-  artifactKey: Guid(93ef14120b36e164397150d7a274e398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Roads using Guid(93ef14120b36e164397150d7a274e398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c063931e194d0ccc134cbd9b8fc8a047') in 0.002628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.070998 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Concrete Tile.prefab
-  artifactKey: Guid(d34e8533c8de8ec45869f9144584d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Concrete Tile.prefab using Guid(d34e8533c8de8ec45869f9144584d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9efc6dd8741274eaba5efc8c1fd87d') in 0.088389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Corner_02.prefab
-  artifactKey: Guid(8b3300d2ba52ecf409c9523f2eff5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Corner_02.prefab using Guid(8b3300d2ba52ecf409c9523f2eff5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd735982f519decf66b931fa79b1a8ea7') in 0.019532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Tile Small.prefab
-  artifactKey: Guid(a1eb827aa0413ab4a8b3b08c0e1a8c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Tile Small.prefab using Guid(a1eb827aa0413ab4a8b3b08c0e1a8c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eddcb459ec02482965ff27978f7ef9') in 0.006001 seconds
+  Time since last request: 200.043618 seconds.
+  path: Assets/FromScene/Props_Roof Antenna (4).prefab
+  artifactKey: Guid(6be15db7938a6ab48968520ae188255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof Antenna (4).prefab using Guid(6be15db7938a6ab48968520ae188255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5572370186d583e28711b19b3ea31d83') in 0.067876 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Lane_01.prefab
-  artifactKey: Guid(4f32dfddb033d3e40b5841bc53cc1689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Roads/Road Lane_01.prefab using Guid(4f32dfddb033d3e40b5841bc53cc1689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df076460910547e8c57d8cd1991e333') in 0.005304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.619629 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Big Tree.prefab
-  artifactKey: Guid(b82e76f4092b7d24aaeecddf36fe8d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Big Tree.prefab using Guid(b82e76f4092b7d24aaeecddf36fe8d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85f7a04e8f18e01cfc4ae2e5c809e37') in 0.021732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_03.prefab
-  artifactKey: Guid(47ea3e3caeb3c2845bbd9339bdc7a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_03.prefab using Guid(47ea3e3caeb3c2845bbd9339bdc7a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e779d686ce5c2e818485fa37441c72') in 0.006080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Grass Fence.prefab
-  artifactKey: Guid(b14aef9a05449784da6735de9ec90b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Grass Fence.prefab using Guid(b14aef9a05449784da6735de9ec90b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62df64587499127f4b17ce1bfabd5663') in 0.005685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Cube Tree.prefab
-  artifactKey: Guid(8b680e0f7699a254c84ed6737b7eb53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Cube Tree.prefab using Guid(8b680e0f7699a254c84ed6737b7eb53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664b5e2d1939e3f603348bb3e3606068') in 0.006112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab
-  artifactKey: Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab using Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2c5cf7efc89e9a974d3c6d41d2ebe') in 0.005821 seconds
+  path: Assets/FromScene/Props_Roof Helipad (4).prefab
+  artifactKey: Guid(8df35385dc0e5c74b94e9943df14ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof Helipad (4).prefab using Guid(8df35385dc0e5c74b94e9943df14ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53700b58a6007d1a6e2bbb2956e8779') in 0.014227 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FromScene/Props_Roof prop air (2).prefab
+  artifactKey: Guid(f78d44ef298256e49a6179d007ac7699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (2).prefab using Guid(f78d44ef298256e49a6179d007ac7699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48d387deb22b82f5894edd1c498c317') in 0.005286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Props_Roof prop air (10).prefab
+  artifactKey: Guid(f98aa10f81e33f34e9864b33415d3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (10).prefab using Guid(f98aa10f81e33f34e9864b33415d3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd874332b8abd7638f2e742a286284') in 0.004997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FromScene/Props_Roof_prop (2).prefab
+  artifactKey: Guid(542605f2b9c59874fb85e0c63810da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof_prop (2).prefab using Guid(542605f2b9c59874fb85e0c63810da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128701b90bb475f0421171b4b1be7f4d') in 0.005193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Roof Helipad (3).prefab
+  artifactKey: Guid(c580237a85ced494b8a829132b310a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof Helipad (3).prefab using Guid(c580237a85ced494b8a829132b310a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b06bec05f3963a59fbbce209aac720') in 0.004973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FromScene/Props_Street Light (2).prefab
+  artifactKey: Guid(c4f8a0eb25525cb42ab1a2d91e3c239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Street Light (2).prefab using Guid(c4f8a0eb25525cb42ab1a2d91e3c239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913501fc7215cd02207b16cebd184479') in 0.005407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FromScene/Props_Roof prop air (6).prefab
+  artifactKey: Guid(93b2b9c9b7c9e544e8065db1d156744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (6).prefab using Guid(93b2b9c9b7c9e544e8065db1d156744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5e4e86a20838218d2133d6f26b65db') in 0.004883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FromScene/Props_Roof prop air (9).prefab
+  artifactKey: Guid(80fe8f4ec88eb26449a0d90a3ee2e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (9).prefab using Guid(80fe8f4ec88eb26449a0d90a3ee2e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98c2370187478ca4bc69be9c7a460c5') in 0.005230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FromScene/Props_Roof prop air (8).prefab
+  artifactKey: Guid(9c9318afe2174a24480729008e3a58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (8).prefab using Guid(9c9318afe2174a24480729008e3a58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99ea047e3fc0a44bded3b5680a85e22') in 0.005094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FromScene/Props_Roof_prop.prefab
+  artifactKey: Guid(166e63cbe57f55e40a6496a9a7f09879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof_prop.prefab using Guid(166e63cbe57f55e40a6496a9a7f09879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a078b49aa63150e503606c70ac5973') in 0.005733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Roof prop air (7).prefab
+  artifactKey: Guid(f16f48c3a95d1694882766c6a9155b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Roof prop air (7).prefab using Guid(f16f48c3a95d1694882766c6a9155b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0195e0e1aefbd55fdf22dbbcdd563471') in 0.005304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FromScene/Props_Street Light (3).prefab
+  artifactKey: Guid(d56b040567e9cca448fc4cd9807361ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromScene/Props_Street Light (3).prefab using Guid(d56b040567e9cca448fc4cd9807361ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6d1fd5c3eaa951dc50f2eda1daa34e') in 0.005310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
