@@ -3,21 +3,18 @@ using System.Collections;
 
 public class ClickableObject : MonoBehaviour
 {
-    public inventoryMain inventory;
     public int moneyToAdd = 10; // Количество денег, которое будет начислено при клике
     public CoroutineManager coroutineManager;
     public int disappearDuration; //задержка
     private bool Height = true;
 
-    private void Start()
-    {
-        inventory = GetComponent<inventoryMain>();
-    }
+
     void OnMouseDown()
     {
         Debug.Log("OnMouseDown called.");
         if (Height == true) { 
         {
+        Inventory.Instance.AddInventory(1);
         // Проверяем, что экземпляр MoneyManager существует
         if (MoneyManager.Instance != null )
         {
@@ -63,7 +60,6 @@ public class ClickableObject : MonoBehaviour
 
         Height = true;
 
-        inventory.quantity += 1;
 
     }
 }
