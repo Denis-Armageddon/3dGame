@@ -4,10 +4,12 @@ ScriptsOnlyBuild:
     - CameraController
     - ClickableObject
     - CoroutineManager
+    - DoorOpen
     - Inventory
     - InventoryUIManager
     - MoneyManager
     - NPCController
+    - NPCPolice
     - PlayerController
     - tradeNPC
     Unity.Rider.Editor.dll:
@@ -119,33 +121,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17642}
     - Class: 114
-      Script: {instanceID: 17846}
+      Script: {instanceID: 17708}
     - Class: 114
-      Script: {instanceID: 19008}
+      Script: {instanceID: 17848}
     - Class: 114
-      Script: {instanceID: 19114}
+      Script: {instanceID: 19010}
     - Class: 114
-      Script: {instanceID: 19170}
+      Script: {instanceID: 19116}
     - Class: 114
-      Script: {instanceID: 19364}
+      Script: {instanceID: 19172}
     - Class: 114
-      Script: {instanceID: 20070}
+      Script: {instanceID: 19366}
     - Class: 114
-      Script: {instanceID: 20150}
+      Script: {instanceID: 20072}
     - Class: 114
-      Script: {instanceID: 20620}
+      Script: {instanceID: 20152}
     - Class: 114
-      Script: {instanceID: 20772}
+      Script: {instanceID: 20622}
     - Class: 114
-      Script: {instanceID: 20808}
+      Script: {instanceID: 20774}
     - Class: 114
-      Script: {instanceID: 21086}
+      Script: {instanceID: 20810}
     - Class: 114
-      Script: {instanceID: 22292}
+      Script: {instanceID: 20882}
     - Class: 114
-      Script: {instanceID: 22880}
+      Script: {instanceID: 21090}
     - Class: 114
-      Script: {instanceID: 55406}
+      Script: {instanceID: 22296}
+    - Class: 114
+      Script: {instanceID: 140916}
+    - Class: 114
+      Script: {instanceID: 828424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -351,6 +357,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 52ea05f1742e34546be52eca75635317
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: tradeNPC
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -827,7 +839,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: d0c6d1d9ab2785fcba8758b4561ca71d
+      Hash: eae5223b8104f404da6a55e328bcf0be
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ClickableObject
@@ -921,6 +933,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InventoryUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 37f5cfe43d6ac87c24873f2b1d70af98
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NPCController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1247,17 +1265,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 37f5cfe43d6ac87c24873f2b1d70af98
+      Hash: e4064b844032fd4fb130555033f3255c
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: NPCController
+    className: DoorOpen
   - hash:
       serializedVersion: 2
-      Hash: 56dd0ec5d30d1459cc0d6f987c8c9705
+      Hash: 0a227d0369ef916b8b20a1f6f4e4bc5c
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: tradeNPC
+    className: NPCPolice
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/\u0434\u0435\u043D\u0438\u0441/Downloads/dillerSimulator.exe"
+  playerPath: "C:/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/dillerSimulator.exe"

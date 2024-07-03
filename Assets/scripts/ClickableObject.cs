@@ -3,36 +3,52 @@ using System.Collections;
 
 public class ClickableObject : MonoBehaviour
 {
-    
     public CoroutineManager coroutineManager;
-    public int disappearDuration; //задержка
+    public int disappearDuration; // задержка
     private bool Height = true;
 
+    public float interactionDistance = 3f;
+    public Camera cameraPlayer;
 
-    void OnMouseDown()
+    private void Update()
     {
-        Debug.Log("OnMouseDown called.");
-        if (Height == true) { 
+        if (Input.GetKeyDown(KeyCode.E))
         {
-        Inventory.Instance.AddInventory(1);
-        // Проверяем, что экземпляр MoneyManager существует
-        if (MoneyManager.Instance != null )
-        {
-            // Начинаем процесс исчезновения и появления объекта через CoroutineManager
-            if (coroutineManager != null )
+            Ray ray = new Ray(cameraPlayer.transform.position, cameraPlayer.transform.forward);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, interactionDistance))
             {
-                coroutineManager.StartCoroutine(DisappearAndReappear(this, disappearDuration));
+                if (hit.collider.gameObject == gameObject) // Проверка, что луч попал в этот объект
+                {
+                    Interact();
+                }
+            }
+        }
+    }
+
+    void Interact()
+    {
+        Debug.Log("Interact called.");
+        if (Height)
+        {
+            Inventory.Instance.AddInventory(1);
+
+            if (MoneyManager.Instance != null)
+            {
+                if (coroutineManager != null)
+                {
+                    coroutineManager.StartCoroutine(DisappearAndReappear(this, disappearDuration));
+                }
+                else
+                {
+                    Debug.LogError("CoroutineManager is not assigned.");
+                }
             }
             else
             {
-                Debug.LogError("CoroutineManager is not assigned.");
+                Debug.LogError("MoneyManager instance is null.");
             }
-        }
-        else
-        {
-            Debug.LogError("MoneyManager instance is null.");
-        }
-        }
         }
     }
 
@@ -47,6 +63,7 @@ public class ClickableObject : MonoBehaviour
 
         clickableObject.gameObject.SetActive(true);
         clickableObject.gameObject.transform.localScale = new Vector3(92, 92, 92);
+
         yield return new WaitForSeconds(delay);
 
         clickableObject.gameObject.transform.localScale = new Vector3(184, 184, 184);
@@ -56,7 +73,5 @@ public class ClickableObject : MonoBehaviour
         clickableObject.gameObject.transform.localScale = new Vector3(276.91f, 276.91f, 276.91f);
 
         Height = true;
-
-
     }
 }
