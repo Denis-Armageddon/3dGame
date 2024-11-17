@@ -361,7 +361,6 @@
 "Assets/scripts/ClickableObject.cs"
 "Assets/scripts/CoroutineManager.cs"
 "Assets/scripts/doorOpen.cs"
-"Assets/scripts/inventory.cs"
 "Assets/scripts/inventory/Inventory.cs"
 "Assets/scripts/menuOpen.cs"
 "Assets/scripts/moneyManager.cs"

@@ -11,6 +11,12 @@ public class NPCController : MonoBehaviour
     private int currentWaypointIndex = 0;
     private bool isPlayerInRange = false;
 
+
+
+    private void Start()
+    {
+       
+    }
     private void Update()
     {
         float distanceToPlayer = Vector3.Distance(player.position, transform.position);
